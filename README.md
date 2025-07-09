@@ -28,6 +28,9 @@ Voici un aperçu de l'interface de chat :
     </tr>
 </table>
 
+# version Desktop 
+
+<img src="captures/Capture_web.png" >
 
 ## Comment cloner et exécuter l'application
 
@@ -39,7 +42,7 @@ Suivez ces étapes pour obtenir une copie locale du projet et l'exécuter :
 
 2.  **Cloner le dépôt :**
     Ouvrez un terminal ou une invite de commandes et exécutez la commande suivante :
-    bash git clone https://github.com/elghariaoui/Demo_Chat_bot_AppMobile
+    bash git clone https://github.com/elghariaoui/Demo_Chat_bot_AppMobile-Flutter-Bloc-LLM
 
 3.  **Ouvrir dans Android Studio :**
     *   Lancez Android Studio.
@@ -55,7 +58,10 @@ Suivez ces étapes pour obtenir une copie locale du projet et l'exécuter :
 
 6.  **Exécuter l'application :**
     *   Sélectionnez un émulateur Android disponible ou connectez un appareil Android physique.
+    *   Ajouter l'option --dart-define=USE_LOCAL_API=true pour l'exécution locale sur l'émulateur Android, sinon elle sera exécutée sur l'appareil physique (web par exemple).
     *   Cliquez sur le bouton "Run 'app'" (l'icône de triangle vert ▶️) dans Android Studio.
+    
+<img src="captures/Capture_Run.png" >
 
 ---
 
