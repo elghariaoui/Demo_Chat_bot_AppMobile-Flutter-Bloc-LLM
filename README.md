@@ -19,7 +19,7 @@ Voici un aperçu de l'interface de chat :
         </tr>
         <tr>
             <td>Login admin avec le mot de passe 1234</td>
-            <td><img src="captures/Capture_login.png" alt="Login"></td>
+            <td><img src="captures/Capture_Login.png" alt="Login"></td>
         </tr>
         <tr>
             <td>Chat avec le LLM Olama 3.2</td>
