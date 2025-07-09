@@ -22,13 +22,12 @@ Voici un aperçu de l'interface de chat :
             <td><img src="captures/Capture_login.png" alt="Login"></td>
         </tr>
         <tr>
-            <td>Chat avec le llm Olama</td>
+            <td>Chat avec le LLM Olama 3.2</td>
             <td><img src="captures/Capture_chat_Bot.png" alt="Login"></td>
         </tr>
     </tr>
 </table>
 
-*(Remplacez `URL_OU_CHEMIN_CAPTURE_1` et `URL_OU_CHEMIN_CAPTURE_2` par les liens ou les chemins relatifs vers vos images. Si vous les mettez dans un dossier `screenshots` à la racine de votre projet, le chemin pourrait être quelque chose comme `screenshots/chat_conversation.png`)*
 
 ## Comment cloner et exécuter l'application
 
