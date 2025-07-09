@@ -19,7 +19,7 @@ Voici un aperçu de l'interface de chat :
         </tr>
         <tr>
             <td>Login admin avec le mot de passe 1234</td>
-            <td><img src="captures/Capture_Login.png.png" alt="Login"></td>
+            <td><img src="captures/Capture_Login.png" alt="Login"></td>
         </tr>
         <tr>
             <td>Chat avec le LLM Olama 3.2</td>
@@ -28,7 +28,7 @@ Voici un aperçu de l'interface de chat :
     </tr>
 </table>
 
-# version Desktop 
+# Version Desktop Web 
 
 <img src="captures/Capture_web.png" >
 
@@ -61,7 +61,7 @@ Suivez ces étapes pour obtenir une copie locale du projet et l'exécuter :
     *   Ajouter l'option --dart-define=USE_LOCAL_API=true pour l'exécution locale sur l'émulateur Android, sinon elle sera exécutée sur l'appareil physique (web par exemple).
     *   Cliquez sur le bouton "Run 'app'" (l'icône de triangle vert ▶️) dans Android Studio.
     
-<img src="captures/Capture_Run.png" >
+<img src="captures/Capture_run.png" >
 
 ---
 
