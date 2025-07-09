@@ -1,6 +1,8 @@
 import 'package:chat_bot_app/chat.bot.page.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
+import 'bloc/chat.bot.bloc.dart';
 import 'home.page.dart';
 
 void main() {
@@ -12,16 +14,25 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return MultiBlocProvider(
+      providers: [BlocProvider(create: (context) => ChatBotBloc())],
+      child: RootView(),
+    );
+  }
+}
+
+class RootView extends StatelessWidget {
+  const RootView({super.key});
+
+  @override
+  Widget build(BuildContext context) {
     return MaterialApp(
-      routes: {
-        '/': (context) => HomePage(),
-        '/chat': (context) => ChatBotPage(),
-      },
       theme: ThemeData(
-        primaryColor: Colors.deepOrange,
+        primarySwatch: Colors.teal,
         indicatorColor: Colors.white,
       ),
-      // home: HomePage(),
+      routes: {"/chat": (context) => ChatBotPage()},
+      home: HomePage(),
     );
   }
 }
